@@ -1,0 +1,44 @@
+.header {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #3aa391;
+  padding-top: 50px;
+}
+.header p {
+  font-size: 37px;
+  font-weight: bold;
+  font-family: 'open sans', sans-serif;
+  color: #3aa391;
+}
+.img {
+  padding-bottom: 20px;
+  width: 30%;
+}
+.text {
+  font-size: 30px;
+  font-weight: bold;
+  color: #717171;
+  text-align: center;
+  padding-top: 50px;
+}
+.imgHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #222e46;
+  font-size: 66px;
+  font-weight: bold;
+  font-family: 'open sans', sans-serif;
+}
+.desc {
+  font-size: 30px;
+  font-weight: 400;
+  color: #717171;
+  text-align: center;
+  padding-top: 50px;
+}
+.imgGroup {
+  width: 100%;
+  padding-top: 50px;
+}

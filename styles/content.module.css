@@ -1,0 +1,73 @@
+.fHeader {
+  font-size: 30px;
+  font-weight: bold;
+  color: #222e46;
+  font-family: 'open sans', sans-serif;
+}
+.lHeader {
+  font-size: 30px;
+  font-weight: bold;
+  color: #3aa391;
+  font-family: 'open sans', sans-serif;
+}
+.desc {
+  color: #717171;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'open sans', sans-serif;
+}
+.fButton {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: #222e46;
+  font-family: 'open sans', sans-serif;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+.lButton {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  color: #222e46;
+  background-color: white;
+
+  font-family: 'open sans', sans-serif;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+.info {
+  display: flex;
+  padding: 5px;
+}
+.experience {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+.experience p {
+  font-size: 40px;
+  font-weight: bold;
+  color: #222e46;
+  font-family: 'open sans', sans-serif;
+  padding-right: 10px;
+}
+.clients {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+.clients p {
+  font-size: 40px;
+  font-weight: bold;
+  color: #222e46;
+  font-family: 'open sans', sans-serif;
+  padding-right: 10px;
+}
+.img {
+  padding-top: 50px;
+  width: 100%;
+}

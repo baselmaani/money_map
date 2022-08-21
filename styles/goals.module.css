@@ -1,0 +1,36 @@
+.header {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'open sans', 'sans-serif';
+  color: #222e46;
+}
+.header span {
+  color: #3aa391;
+  font-size: 50px;
+  font-family: 'open sans', sans-serif;
+}
+.header p {
+  font-size: 25px;
+  font-family: 'open sans', sans-serif;
+  color: #717171;
+  font-weight: 400;
+}
+.targets {
+  color: black;
+  font-size: 25px;
+  font-family: 'open sans', sans-serif;
+  font-weight: bold;
+}
+.targets span {
+  padding-right: 20px;
+}
+.desc {
+  color: #717171;
+  font-size: 20px;
+  font-family: 'open sans', sans-serif;
+  font-weight: 400;
+  padding-top: 20px;
+}
+.img {
+  width: 100%;
+}

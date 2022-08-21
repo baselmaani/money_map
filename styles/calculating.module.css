@@ -1,0 +1,42 @@
+.calHeader {
+  color: #3e4347;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'open sans', sans-serif;
+}
+.calHeader span {
+  color: #3aa391;
+}
+.desc {
+  color: #717171;
+  font-family: 'open sans', sans-serif;
+  font-size: 27px;
+  font-weight: 400;
+  padding-top: 50px;
+}
+.text {
+  color: #222e46;
+  font-family: 'open sans', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 50px 0;
+}
+.text span {
+  color: #3aa391;
+}
+.btn {
+  background-color: #222e46;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+}
+.imgs {
+  width: 100%;
+  padding-top: 20px;
+  height: 50%;
+}
