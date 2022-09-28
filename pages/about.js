@@ -31,7 +31,7 @@ const about = () => {
   return (
     <>
       {' '}
-      <Container className={styles.header}>
+      <Container fluid className={styles.header}>
         <Row>
           <Col>
             <div className={styles.ing}>
