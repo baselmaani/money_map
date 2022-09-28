@@ -30,7 +30,6 @@ const AnyReactComponent = ({ text }) => <div>{text}</div>;
 const about = () => {
   return (
     <>
-      {' '}
       <Container fluid className={styles.header}>
         <Row>
           <Col>
