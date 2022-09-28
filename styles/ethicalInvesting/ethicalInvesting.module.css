@@ -1,0 +1,149 @@
+.header {
+  background: #222e46;
+}
+.barImg {
+  width: 30%;
+}
+.barItem {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn {
+  background-color: #3aa391;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+
+  cursor: pointer;
+  font-family: 'open sans', sans-serif;
+  padding: 10px 20px;
+}
+.header h1 {
+  color: white;
+  padding: 100px 0 50px 20px;
+  font-size: 70px;
+  font-family: 'open sans';
+}
+.header p {
+  color: white;
+  font-size: 30px;
+  font-family: 'open sans';
+  padding: 50px 0 100px 20px;
+}
+.halalInvestment h2 {
+  padding-top: 30px;
+  font-size: 70px;
+  font-weight: bold;
+  font-family: 'open sans';
+}
+
+.halalInvestment p {
+  font-size: 30px;
+  font-family: 'open sans';
+  font-weight: bold;
+
+  padding-bottom: 90px;
+  color: #717171;
+}
+
+.halalInvestment img {
+  width: 60%;
+}
+.screening {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.screeningIcons {
+  display: flex;
+  padding-left: 20px;
+  flex-direction: column;
+  font-size: 40px;
+  color: #3aa391;
+}
+.screeningDesc {
+  padding-left: 25px;
+}
+.screeningDesc h2 {
+  color: #222e46;
+  font-family: 'open sans';
+  font-size: 35px;
+  font-weight: bold;
+}
+.screeningDesc p {
+  color: #717171;
+  font-family: 'open sans';
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.commitment {
+  margin-top: 50px;
+  padding-top: 30px;
+  width: 95%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.commitment h2 {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'open sans';
+  padding: 10px;
+}
+
+.commitment p {
+  color: #717171;
+  font-size: 20px;
+  font-family: 'open sans';
+  font-weight: 450;
+  padding: 20px;
+}
+.commitment button {
+  background: #3aa391;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 20px;
+  margin-left: 15px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.commitmentImg {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+}
+.commitmentImg img {
+  width: 30%;
+  height: auto;
+}

@@ -1,0 +1,408 @@
+.header {
+  background-image: url(/money\ 1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.header h1 {
+  color: #222e46;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 60px;
+  padding: 50px;
+}
+.header p {
+  font-weight: 450;
+  font-family: sans-serif;
+  font-size: 30px;
+  width: 50%;
+  padding: 0 50px;
+}
+
+.list p {
+  font-weight: 635;
+  font-size: 38px;
+  font-family: 'open sans';
+}
+
+.welcome h6 {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'open sans';
+  color: #3aa391;
+}
+
+.welcome h3 {
+  color: #222e46;
+  font-size: 60px;
+
+  font-family: 'open sans';
+}
+
+.welcome p {
+  color: #717171;
+  font-size: 30px;
+  font-family: 'open sans';
+  font-weight: 400;
+  width: 90%;
+}
+
+.welcomeList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 50px;
+}
+.welcomeList li {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #222e46;
+}
+
+.card {
+  margin-top: -200px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.299);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.cardIcon {
+  padding: 20px;
+  font-size: 80px;
+}
+.cardHeader {
+  padding: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'open sans';
+}
+.cardText {
+  color: #222e46;
+  font-size: 25px;
+  font-weight: 450;
+  font-family: 'open sans';
+  padding: 25px;
+}
+
+.ourExpert {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ourExpert h1 {
+  font-family: 'open sans';
+  font-weight: 600;
+  font-size: 70px;
+}
+
+.ourExpert p {
+  font-weight: 450;
+  font-size: 30px;
+  font-family: 'open sans';
+  color: #717171;
+  text-align: center;
+  width: 70%;
+  padding-bottom: 50px;
+}
+.teamContainer {
+  position: relative;
+}
+.img {
+  opacity: 1;
+  backface-visibility: hidden;
+  height: auto;
+  transition: 0.5s ease;
+  width: 100%;
+}
+.middle {
+  transition: 0.5s ease;
+  background-color: #222e4666;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  width: 90%;
+  height: 90%;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+
+.teamContainer:hover .img {
+  opacity: 0.2;
+}
+
+.teamContainer:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+}
+.text h1 {
+  font-size: 50px;
+  font-family: 'open sans';
+  font-weight: 600;
+}
+.text p {
+  padding: 30px;
+  font-family: 'open sans';
+}
+.teamIconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.teamIcon {
+  cursor: pointer;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  font-size: 40px;
+  background: #222e46;
+  color: white;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.TeamHeader {
+  font-size: 70px;
+  font-weight: bold;
+  font-family: 'open sans';
+  text-align: center;
+  padding: 50px 0;
+}
+.team {
+  display: flex;
+  justify-content: space-around;
+}
+
+.services {
+  margin-top: 50px;
+}
+
+.services h4 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'open sans';
+  color: #3aa391;
+}
+.services h1 {
+  font-size: 70px;
+  font-family: 'open sans';
+  font-weight: bold;
+  position: relative;
+}
+
+.services img {
+  width: 21%;
+  position: absolute;
+  right: 550px;
+  bottom: 140px;
+}
+.services p {
+  font-size: 30px;
+  font-family: 'open sans';
+  font-weight: 450;
+  color: #717171;
+  margin-top: 50px;
+  width: 60%;
+}
+.serviceCards {
+  border: 1px solid #717171;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.serviceIcons {
+  margin: 20px;
+  background-color: #f4f4f4;
+  width: 70px;
+  height: 70px;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.serviceCards h2 {
+  color: #222e46;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'open sans';
+}
+.serviceCards p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'open sans';
+}
+.serviceCards button {
+  background: white;
+  border: none;
+  outline: none;
+  color: #222e46;
+  padding: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 20px;
+}
+
+.whyChooseUs {
+  width: 100%;
+  position: relative;
+}
+
+.bgImg {
+  opacity: 0.3;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.imgContent {
+  position: relative;
+}
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  text-align: center;
+}
+.content h4 {
+  text-align: center;
+  color: #3aa391;
+  font-size: 30px;
+  font-family: 'open sans';
+  font-weight: bold;
+}
+.content h1 {
+  text-align: center;
+  color: #222e46;
+  font-size: 76px;
+  font-family: 'open sans';
+  font-weight: bold;
+  padding: 50px;
+  width: 70%;
+}
+.content p {
+  color: #717171;
+  font-size: 30px;
+  font-family: 'open sans';
+  font-weight: 400;
+  text-align: center;
+  width: 50%;
+}
+.loyalCLient p {
+  color: #222e46;
+  font-size: 90px;
+  font-weight: 600;
+  font-family: 'open sans';
+
+  margin: 0;
+}
+.loyalCLient {
+  color: #717171;
+  font-family: 'open sans';
+  font-size: 30px;
+  padding-left: 50px;
+}
+.locationIcon {
+  color: rgb(215, 32, 32);
+  font-size: 70px;
+}
+.mapHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-top: 50px;
+}
+.mapHeader h4 {
+  color: #3aa391;
+  font-size: 30px;
+  font-family: 'open sans';
+  font-weight: 400;
+}
+.mapHeader {
+  font-size: 40px;
+  font-family: 'open sans';
+  font-weight: 600;
+}
+.map {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background: white;
+  border-radius: 30px;
+  margin-bottom: 50px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+.address {
+  padding: 30px;
+}
+.address :first-child {
+  color: #3aa391;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'open sans';
+}
+.address h2 {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: 'open sans';
+}
+.address p {
+  color: #222e46;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'open sans';
+}
+.ing {
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(
+    to top,
+    rgba(139, 129, 129, 0),
+    rgb(255, 254, 254)
+  );
+  z-index: 999;
+  margin: 0 px;
+}
