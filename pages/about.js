@@ -28,17 +28,10 @@ import Questions from '../components/Questions';
 import Description from '../components/Description';
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 const about = () => {
-  const defaultProps = {
-    center: {
-      lat: 58.27533929253653,
-      lng: 12.285084461666594,
-    },
-    zoom: 17,
-  };
   return (
     <>
       {' '}
-      <Container fluid className={styles.header}>
+      <Container className={styles.header}>
         <Row>
           <Col>
             <div className={styles.ing}>
