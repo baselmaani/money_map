@@ -3,6 +3,7 @@
   font-weight: bold;
   font-family: 'open sans', 'sans-serif';
   color: #222e46;
+  text-align: left;
 }
 .header span {
   color: #3aa391;
@@ -15,11 +16,23 @@
   color: #717171;
   font-weight: 400;
 }
+.targetsContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+}
+.targetsContainer img {
+  width: 50px;
+  height: 50px;
+}
 .targets {
   color: black;
   font-size: 25px;
   font-family: 'open sans', sans-serif;
   font-weight: bold;
+  text-align: left;
 }
 .targets span {
   padding-right: 20px;
@@ -30,7 +43,17 @@
   font-family: 'open sans', sans-serif;
   font-weight: 400;
   padding-top: 20px;
+  text-align: left;
 }
 .img {
   width: 100%;
+}
+.info {
+  padding: 20px;
+}
+.imageContainer {
+  padding: 20px;
+}
+.row {
+  align-items: center;
 }

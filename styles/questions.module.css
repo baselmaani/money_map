@@ -27,10 +27,10 @@
   padding: 15px 22px;
   width: 20%;
 }
-.img {
-  width: 630px;
+.imgContainer {
+  width: '100%';
 }
-.img img {
+.imgContainer img {
   width: 100%;
   height: auto;
 }

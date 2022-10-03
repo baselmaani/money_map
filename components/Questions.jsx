@@ -3,9 +3,9 @@ import { Col, Container, Row } from 'react-grid-system';
 import styles from '../styles/questions.module.css';
 const Questions = () => {
   return (
-    <Container fluid>
+    <Container justify={'center'}>
       <Row>
-        <Col lg={7} sm={12}>
+        <Col lg={6} sm={12}>
           <div className={styles.question}>
             <h1>Frequently Asked Questions</h1>
             <p>What is Money Map?</p>
@@ -16,9 +16,9 @@ const Questions = () => {
             <button className={styles.btn}>View All FAQs</button>
           </div>
         </Col>
-        <Col lg={5} sm={12}>
-          <div className={styles.img}>
-            <img src='/Ask.png' alt='' />
+        <Col lg={6} sm={12}>
+          <div className={styles.imgContainer}>
+            <img src='/Ask.png' alt='' className={styles.img} />
           </div>
         </Col>
       </Row>

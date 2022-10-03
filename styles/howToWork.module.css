@@ -3,7 +3,7 @@
   font-size: 20px;
   font-weight: bold;
   color: #3aa391;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 .header p {
   font-size: 37px;
@@ -20,25 +20,28 @@
   font-weight: bold;
   color: #717171;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 .imgHeader {
   display: flex;
   justify-content: center;
   align-items: center;
   color: #222e46;
-  font-size: 66px;
+  font-size: 2em;
   font-weight: bold;
   font-family: 'open sans', sans-serif;
 }
 .desc {
-  font-size: 30px;
+  font-size: 1.5em;
   font-weight: 400;
   color: #717171;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 .imgGroup {
   width: 100%;
-  padding-top: 50px;
+  padding-top: 20px;
+}
+.itemContainer {
+  padding: 20px;
 }

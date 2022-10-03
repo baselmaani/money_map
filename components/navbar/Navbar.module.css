@@ -1,0 +1,60 @@
+.top {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 10px;
+  font-size: 18px;
+  background: #f8f9fa;
+}
+.top a {
+  color: #333;
+  text-decoration: none;
+}
+
+.link {
+}
+.webshopLink {
+  color: #ff6600 !important;
+}
+.link:hover > a {
+  color: #ff6600;
+}
+.logoImage {
+  width: 200px;
+  height: auto;
+}
+.navbarContainer {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.contactItem {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+}
+.contactItem:hover {
+  opacity: 0.5;
+}
+
+.contactText {
+  margin: 0 10px;
+  font-size: 14px;
+}
+.sublink {
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.link {
+  cursor: pointer;
+}
+.link:hover {
+  color: #ff6600;
+}
+.navItemsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}

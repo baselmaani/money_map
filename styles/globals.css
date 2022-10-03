@@ -7,3 +7,8 @@ ul {
 li {
   display: inline-block;
 }
+
+* {
+  color: #222e46;
+  font-family: 'open sans', sans-serif;
+}

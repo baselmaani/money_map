@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
+import Navbar from '../components/navbar/Navbar';
 import styles from '../styles/about/about.module.css';
 import { Col, Container, Row } from 'react-grid-system';
 import { Grid } from '@material-ui/core';
@@ -22,7 +22,7 @@ import {
 } from 'react-icons/ai';
 import { BiBuilding } from 'react-icons/bi';
 import Card from 'react-bootstrap/Card';
-import Suponsers from '../components/Suponsers';
+import Suponsers from '../components/clients/Suponsers';
 import GoogleMapReact from 'google-map-react';
 import Questions from '../components/Questions';
 import Description from '../components/Description';
@@ -638,7 +638,7 @@ const about = () => {
                   height='100%'
                   style={{ border: '20px' }}
                   loading='lazy'
-                  referrerpolicy='no-referrer-when-downgrade'
+                  referrerPolicy='no-referrer-when-downgrade'
                 ></iframe>
               </div>
               <div className={styles.address}>

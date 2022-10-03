@@ -12,7 +12,7 @@
 }
 .desc {
   color: #717171;
-  font-size: 20px;
+  font-size: 1em;
   font-weight: 400;
   font-family: 'open sans', sans-serif;
 }
@@ -42,18 +42,20 @@
 .info {
   display: flex;
   padding: 5px;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  min-width: 350px;
 }
 .experience {
   display: flex;
   align-items: center;
-  margin: 20px;
 }
-.experience p {
+.experience .counter {
   font-size: 40px;
   font-weight: bold;
   color: #222e46;
   font-family: 'open sans', sans-serif;
-  padding-right: 10px;
 }
 .clients {
   display: flex;
@@ -68,6 +70,42 @@
   padding-right: 10px;
 }
 .img {
-  padding-top: 50px;
   width: 100%;
+  animation: FadeInOut 2s ease-in-out infinite;
+}
+.buttonContainer {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.buttonsContainer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75px;
+}
+.counterLabel {
+  font-size: 1em;
+  color: #222e46;
+}
+.infoSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+@keyframes FadeInOut {
+  0% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.4;
+  }
 }

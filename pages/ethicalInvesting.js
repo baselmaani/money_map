@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-grid-system';
-import Navbar from '../components/Navbar';
+import Navbar from '../components/navbar/Navbar';
 import styles from '../styles/ethicalInvesting/ethicalInvesting.module.css';
 import { AiFillCaretDown, AiOutlineSetting } from 'react-icons/ai';
 import { MdOutlineGTranslate, MdOutlineLocationOn } from 'react-icons/md';
