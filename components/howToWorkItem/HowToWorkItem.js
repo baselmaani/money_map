@@ -1,15 +1,22 @@
 import React from 'react';
 import styled from 'styled-components';
+import { theme } from '../../utls/theme';
 
-const FilledButton = styled.button`
+const StyledCircle = styled.section`
   background-color: transparent;
   position: relative;
+  width: 150px;
+  height: 150px;
   box-shadow: none;
   padding: 10px;
-  border-radius: ${(props) => (props.rounding ? props.rounding : 0)}px;
+  border-radius: 50%;
   color: ${(props) => (props.variant === 'filled' ? '#fff' : props.color)};
+  fill: ${(props) => (props.variant === 'filled' ? '#fff' : props.color)};
   overflow: hidden;
   border: 1px solid ${(props) => props.color};
+  display: flex;
+  justify-content: center;
+  align-items: center;
   :hover {
     color: ${(props) => (props.variant === 'filled' ? props.color : '#fff')};
   }
@@ -35,25 +42,34 @@ const FilledButton = styled.button`
   }
 `;
 
-function CustomButton({
-  variant = 'filled',
-  rounding = 0,
-  color,
-  onClick,
-  children,
+const Container = styled.section`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 10px;
+`;
+
+function HowToWorkItem({
+  variant = 'outlined',
+  color = theme.colors.primary,
+  image,
+  title,
+  description,
+  from = 'left',
   props,
 }) {
   return (
-    <FilledButton
-      onClick={onClick}
-      rounding={rounding}
-      variant={variant}
-      color={color}
-      {...props}
-    >
-      {children}
-    </FilledButton>
+    <Container>
+      <StyledCircle variant={variant} color={color}>
+        <img src={image} width='75px' height={'auto'} />
+      </StyledCircle>
+      <div style={{ textAlign: 'center' }}>
+        <h3>{title}</h3>
+        <p>{description}</p>
+      </div>
+    </Container>
   );
 }
 
-export default CustomButton;
+export default HowToWorkItem;

@@ -19,7 +19,7 @@ const Goals = () => {
             <div className={styles.info}>
               <div className={styles.header}>
                 Set your goals with our smart<span> suggestions</span>
-                <p>
+                <p className={styles.subtitle}>
                   Based on your goals, we will select a proposal for you to
                   <br />
                   deposit your money
@@ -50,7 +50,7 @@ const Goals = () => {
               </div>
               <div className={styles.desc}>
                 We make it simple. Tell us where you want to be in a few
-                <br /> years and we'll tell you how much you have to save.
+                <br /> {"years and we'll tell you how much you have to save."}
               </div>
             </div>
           </Col>

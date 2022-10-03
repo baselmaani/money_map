@@ -4,6 +4,8 @@ import Image from 'next/image';
 
 import styles from '../styles/howToWork.module.css';
 import Section from './section/Section';
+import Underline from './underline/Underline';
+import HowToWorkItem from './howToWorkItem/HowToWorkItem';
 
 const HowITWork = () => {
   return (
@@ -23,22 +25,27 @@ const HowITWork = () => {
           <Col lg={12} sm={12}>
             <div className={styles.text}>
               How can this be achieved using artificial intelligence and
-              <br /> technology?
+              technology?
             </div>
           </Col>
         </Row>
         <Row justify='center'>
           <Col lg={3} md={4} sm={12}>
-            <div className={styles.itemContainer}>
-              <img src='/Group 8.png' alt='' className={styles.imgGroup} />
-              <p className={styles.imgHeader}>Integration</p>
-              <div className={styles.desc}>
-                What does your financial life look like and what is your goal
-                for investing? What is the right risk limit for you?
-              </div>
-            </div>
+            <HowToWorkItem
+              image={'/IntegrationIcon.svg'}
+              title='Integration'
+              description='  What does your financial life look like and what is your goal
+                for investing? What is the right risk limit for you?'
+            />
           </Col>
           <Col lg={3} md={4} sm={12}>
+            <HowToWorkItem
+              image={'/Group 9.png'}
+              title='Integration'
+              description='  What does your financial life look like and what is your goal
+                for investing? What is the right risk limit for you?'
+            />
+
             <div className={styles.itemContainer}>
               <img src='/Group 9.png' alt='' className={styles.imgGroup} />
               <p className={styles.imgHeader}>Analysis</p>

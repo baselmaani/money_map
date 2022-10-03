@@ -19,19 +19,19 @@ const Suponsers = () => {
           className='mySwiper'
         >
           <SwiperSlide>
-            <img src='/image 1.png' alt='' style={{ width: '100%' }} />
+            <img src='/client1.svg' alt='' style={{ width: '100%' }} />
           </SwiperSlide>
 
           <SwiperSlide>
-            <img src='/image 2.png' alt='' style={{ width: '100%' }} />
+            <img src='/client2.svg' alt='' style={{ width: '100%' }} />
           </SwiperSlide>
 
           <SwiperSlide>
-            <img src='/image 3.png' alt='' style={{ width: '100%' }} />
+            <img src='/client3.svg' alt='' style={{ width: '100%' }} />
           </SwiperSlide>
 
           <SwiperSlide>
-            <img src='/image 4.png' alt='' style={{ width: '100%' }} />
+            <img src='/client4.svg' alt='' style={{ width: '100%' }} />
           </SwiperSlide>
         </Swiper>
       </Row>

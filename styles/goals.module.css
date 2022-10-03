@@ -1,5 +1,5 @@
 .header {
-  font-size: 50px;
+  font-size: 2em;
   font-weight: bold;
   font-family: 'open sans', 'sans-serif';
   color: #222e46;
@@ -7,12 +7,12 @@
 }
 .header span {
   color: #3aa391;
-  font-size: 50px;
-  font-family: 'open sans', sans-serif;
+}
+.subtitle {
+  font-size: 16px;
 }
 .header p {
-  font-size: 25px;
-  font-family: 'open sans', sans-serif;
+  font-size: 16px;
   color: #717171;
   font-weight: 400;
 }
@@ -21,16 +21,15 @@
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-  margin-top: 50px;
+  margin-top: 1.5em;
 }
 .targetsContainer img {
-  width: 50px;
-  height: 50px;
+  width: 1.5em;
+  height: 1.5em;
 }
 .targets {
   color: black;
-  font-size: 25px;
-  font-family: 'open sans', sans-serif;
+  font-size: 1.5em;
   font-weight: bold;
   text-align: left;
 }
@@ -39,8 +38,7 @@
 }
 .desc {
   color: #717171;
-  font-size: 20px;
-  font-family: 'open sans', sans-serif;
+  font-size: 1em;
   font-weight: 400;
   padding-top: 20px;
   text-align: left;
